@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Police de texte */
+.balsamiq-sans-regular {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.balsamiq-sans-bold {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.balsamiq-sans-regular-italic {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.balsamiq-sans-bold-italic {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Commun à toutes pages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6bccd;
+    font-family: "Balsamiq Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #012A36;
+    color: white;
+    height:  32em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+}
+
+header h3 {
+    font-size: 32px;
+    margin: 10px 0 0 0;
+}
+
+.navbar {
+    position:absolute;
+    padding: 15px;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 0 30px;
+    font-size: 24px;
+}
+
+.navbar a:hover {
+    color: #d295bf;
+
+}
+.contenu {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 35px 110px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenu h2 {
+    font-size: 32px;
+    color: #7e52a0;
+    margin: 25px auto 25px;
+    text-align: center;
+}
+
+.contenu h3 {
+    font-size: 24px;
+    color: #012A36;
+    text-align: center;
+    margin: 25px auto 25px;
+}
+
+.contenu p{
+    font-size: 18px;
+    color: #012A36;
+    margin: 15px 100px 15px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #29274c;
+    color: white;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sources {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 35px 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sources h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sources ul {
+    margin: 15px 75px 15px;
+    color: #012A36;
+    font-size: 18px;
+}
+
+/* Boutons de navigation page d'accueil*/
+
+.navigation-acceuil  {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+.petit-contenu {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.petit-contenu h4 {
+    font-size: 28px;
+    color: #7e52a0;
+    margin-bottom: 15px;
+}
+
+.petit-contenu button {
+    margin-top: auto;
+    align-items: center;
+    font-size: 16px;
+    height: 36px;
+    background-color: #7e52a0;
+    border-radius: 10px;
+}
+
+.petit-contenu a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Biographie */
+
+#biographie {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.texte-biographie {
+    flex: 4;
+}
+
+.photos-biographie {
+    flex: 1;
+    flex-direction:column;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.image-bio {
+    width: 100%;
+    height: auto;
+}
+
+/* Frise chronologique */
+
+.frise {
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+    padding: 40px 0;
+}
+
+.frise-conteneur {
+    position: relative;
+    width: 4px;
+    background-color: #7e52a0;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.frise-item {
+    margin: 30px 0;
+    position: relative;
+    text-align: left;
+    width: 400px;
+}
+
+.frise-item .frise-date {
+    position: absolute;
+    left: -60px;
+    font-size: 1.2em;
+    color: #012A36;
+}
+
+.frise-item .frise-contenu {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #29274c;
+    margin-left: 30px;
+}
+
+.frise-item .frise-contenu h2 {
+    margin: 0;
+    font-size: 1.6em;
+    color: #7e52a0;
+}
+
+.frise-item .frise-contenu p {
+    margin-top: 10px;
+    color: #012A36;
+}
+
+.frise-item::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #e6bccd;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+/* Images page Son Oeuvre */
+
+.oeuvre > img {
+    margin: auto;
+    display: block;
+    width: 40%;
+}
+
+/* Message qui indique que la page du quizz est en cours de construction*/
+.message-construction {
+    padding-top: 100px;
+    height: 350px;
+}

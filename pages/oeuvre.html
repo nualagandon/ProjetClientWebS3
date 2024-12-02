@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oeuvre- Anne-Marie KERMARREC</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="../index.html">Accueil</a>
+            <a href="biographie.html">Biographie</a>
+            <a href="oeuvre.html">Son Oeuvre</a>
+            <a href="quizz.html">Quizz</a>
+        </nav>
+        <section class="bandeau">
+            <h1>Anne-Marie KERMARREC</h1>
+            <h3>Son oeuvre</h3>
+        </section>
+    </header>
+
+    <section class="contenu">
+        <article class="oeuvre">
+            <h2>Les systèmes distribués, les algorithmes pair à pair et les algorithmes épidémiques</h2>
+            <p>Anne-Marie KERMARREC a mené des recherches sur les systèmes distribués, les algorithmes pair à pair ainsi que les algorithmes
+                épidémiques. 
+            </p>
+            <h3>Les systèmes distribués</h3>
+            <p> Un système distribué est un système où plusieurs ordinateurs travaillent ensemble pour parvenir à un objectif commun.
+                On considère chaque ordinateur comme un noeud, qui va partager des ressources et des informations à d'autres ordinateurs (noeuds).
+                Chaque noeud peut avoir un rôle spécifique permettant une organisation du système distribué. En cas de panne d'un des noeuds, les autres noeuds 
+                prendront alors le relais et le système distribué continuera de fonctionner.
+                <br>
+                Les systèmes distribués se différencient des systèmes centralisés. Un système centralisé est un système qui repose sur un seul ordinateur
+                ou réseau principal qui gère toutes les opérations. En cas de panne, alors, tout le système est impacté.
+            </p>
+            <img src="../Images/Système centralisé vs système distribué.png" alt="schéma système distribué et système centralisé">
+            
+            <h3>Les algorithmes pair à pair</h3>
+            <p>
+                Le algorithmes pair à pair sont des algorithmes qui ont pour objectif d'organiser les réseaux pair à pair.
+                Un réseau pair à pair, aussi appelé peer-to-peer ou P2P est un type de système distribué. Chaque noeud, dans le système
+                pair à pair est égal, il agit à la fois comme client et serveur. Cela supprime donc la nécessité d'avoir une gestion centralisée,
+                car tous les noeuds se partagent les ressources entre eux de façon décentralisée.
+            </p>
+            <img src="../Images/Schéma pair à pair vs schéma client-serveur.png" alt="schéma pair à pair et client-serveur">
+
+            <h3>Les algorithmes épidémiques</h3>
+            <p>
+                Un algorithme épidémique est un algorithme qui se base sur la manière dont les maladies et virus se propagent. 
+                Un algorithme épidémique fait circuler l'information de noeud en noeud, et leur fonctionnement est directement inspiré des propagations de maladies, 
+                d'où le nom de l'algorithme. Chaque noeud envoie periodiquement une information a des noeuds voisins choisis aléatoirement. Les noeuds voisins répétent
+                le processus et ainsi de suite. Cela permet de diffuser une information rapidement à travers un réseau.
+                De part leur conception en réseaux de noeuds, les systèmes distribués représentent le terrain idéal pour les algorithmes épidémiques, mais il ne faut 
+                pas nécessairement un système distribué pour utiliser ce type d'algorithme, n'importe quel type de réseau peut être utilisé.
+                <br>
+                On peut prendre la diffusion d'une vidéo virale sur internet comme exemple de comment fonctionne un algorithme épidémique. Une première personne voit 
+                la vidéo, la partage a un ou plusieurs de ses amis, amis qui répètent eux aussi le partage. Ainsi, la vidéo se partage de façon très rapide sur 
+                un réseau avec un grand nombre de personnes et elle devient "virale".
+            </p>    
+        </article>
+        
+        <article class="oeuvre">
+            <h2>La start-up Mediego</h2>
+            <p>
+                En 2015, Anne-Marie KERMARREC co-fonde la startup Mediego. Mediego est une startup qui commercialise des services de personnalisation de contenu 
+                en temps réel pour les médias en ligne. Au milieu des années 2000, Anne-Marie KERMARREC commence à s'intéresser à la personnalisation de l'expérience 
+                utilisateur. C'est une précurseure sur cette thématique, qui était très peu abordée à cette époque. Après 6 ans de recherche sur le sujet, elle co-fonde 
+                Mediego. 
+                La startup propose aux entreprises une technologie qui leur permet de cibler leurs clients avec des contenus personnalisés en analysant en temps réel
+                les données collectées en ligne ou via les points de vente.
+                L'algorithme de Mediego se veut puissant et spécifique. Il analyse les similarités de comportements entre internautes. Il est aussi capable de 
+                gérer un volume exponentiel de données. Son but est d'afficher la personnalisation du contenu en temps réel.
+                En 2019, Mediego est racheté par Welcoming Group.
+            </p>
+            <img src="../Images/logo-mediego-1.png" alt="logo mediego">
+        </article>
+
+    </section>
+
+    <section class="sources">
+        <h2>Sources</h2>
+        <ul>
+            <li><a href="https://www.lemonde.fr/blog/binaire/2016/10/10/lalgorithme-epidemique/">
+                L'algorithme épidémique
+            </a></li>
+            <li><a href="https://mediego.com/fr/a-propos/">Mediego, À propos</a></li>
+            <li><a href="https://www.inria.fr/fr/anne-marie-kermarrec-prix-de-linnovation-inria-academie-des-sciences-dassault-systemes">Anne-Marie Kermarrec : Prix de l'innovation Inria - Académie des sciences - Dassault systèmes</a></li>
+            <li><a href="https://www.atlassian.com/fr/microservices/microservices-architecture/distributed-architecture">Qu'est-ce qu'un système distribué ? (atlassian.com)</a></li>
+            <li><a href="https://www.confluent.io/fr-fr/learn/distributed-systems/">Qu'est-ce qu'un système distribué ? (confluent.io)</a></li>
+        </ul>
+    </section>
+
+    <section class="footer">sd
+        <p>Licence 2 MIASHS 2024 - Fait par Nuala GANDON</p>
+    </section>
+</body>
+</html>
